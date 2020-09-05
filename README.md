@@ -1,2 +1,2 @@
 # Projetos
- Primeiro repositório criado em Git.
+ Primeiro **repositório** criado em Git.
