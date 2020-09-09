@@ -5,7 +5,7 @@ height: 100%;
 .menu-principal {
 width: 100%;
 background-color: #252323;
-height: 50px;
+height: 40px;
 }
 main {
 margin: 0 auto;
@@ -29,8 +29,16 @@ float: left;
 }
 .header-2 {
 background-color: whitesmoke;
-width: 100%;
+width: 980px;
+margin: 0 auto;
+padding: 16px;
+}
+.menu-url {
+height: 80px;
 border-bottom: 3px solid grey;
+background-color: #252323;
+height: 50px;
+margin-left: -10px;
 }
 .menu ul li {
 display: inline-block;
@@ -44,10 +52,22 @@ font-size: 18px;
 text-transform: uppercase;
  }
  .menu {
-width: 65%;
+width: 70%;
 float: left;
 }
 .busca {
-width: 35%;
+width: 30%;
 float: right;
 }    
+.busca input {
+margin-top: 10px;
+}
+.col-100 {
+width: 100%;
+float: left;
+position: relative;
+
+}
+ul {
+padding: 0px!important;
+}
