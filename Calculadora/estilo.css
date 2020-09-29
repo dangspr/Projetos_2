@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: none;
+    font-family: 'Epilogue';
+    font-weight: 1000;
+    font-size: 25px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    background: #41002d;
+}
+input {
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+}
+input[type=text] {
+    width: calc(100% - 4px);
+    height: 40px;
+}
+input[type=button] {
+    width: 100px;
+    height: 50px ;
+    transition: ease 0.2%;
+    cursor: pointer;
+
+}
+div#calculadora div {
+    box-shadow: 0 0 20px black;  
+}
+div#calculadora div {
+    display: flex; 
+}
+
+div#quarta input:nth-child(1) {
+    background: red;
+}
+div#quarta input:nth-child(1), div#calculadora {
+    border-bottom-left-radius: 35px ;
+}
+div#quarta input:nth-child(3) {
+    background: blue;
+}
+div#quarta input:nth-child(4), div#calculadora {
+    border-bottom-right-radius: 35px;
+}
+div#calculadora div input:nth-child(4){
+    filter: brightness(40%)
+    
+
+}
+input[type=button]:hover {
+    filter: brightness(80%);
+    transform: scale(1.1);
+}
